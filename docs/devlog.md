@@ -6,6 +6,10 @@
 - Created the repo and documentation structure
 - Downloaded Grimm (#2591) and Andersen (#1597) from Gutenberg on 2026-10-31
   (Gutenberg updates files occasionally, so re-downloads may differ slightly)
+- Wrote `clean.py`: cuts the Gutenberg header/license (general rule), skips front matter and cuts  
+  afterwords (book-specific rules), and normalizes quotes
+- Verification caught a bug: the cleaned Grimm text ended with an editor's afterword, not a  
+  story. Added a book-specific end marker (`*****`) after confirming with `grep` that it appears only once in the file
 
 ### Troubleshooting: environment setup
 
