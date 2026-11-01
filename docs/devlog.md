@@ -4,6 +4,8 @@
 - Chose Grimm + Andersen fairy tales as training data
 - Set up tools: Git, Python 3.14 (via Python install manager), VS Code
 - Created the repo and documentation structure
+- Downloaded Grimm (#2591) and Andersen (#1597) from Gutenberg on 2026-10-31
+  (Gutenberg updates files occasionally, so re-downloads may differ slightly)
 
 ### Troubleshooting: environment setup
 
